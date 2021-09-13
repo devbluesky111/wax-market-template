@@ -2,7 +2,7 @@
 
 The WAX Market Template is an open source, full market demo application based on the [Atomic API](https://wax.api.atomicassets.io/docs/#)  and WAX APIs. It covers market listings and auctions on the [atomicmarket](https://wax.bloks.io/account/atomicmarket) contract and drops on the [neftyblocksd](https://wax.bloks.io/account/neftyblocksd) contract. It's designed to pre-filer one or multiple collections.
 
-## Prerequisites
+## Prerequisites 
 - Register your market name at the atomicmarket contract by executing the [regmarket](https://wax.bloks.io/account/atomicmarket?loadContract=true&tab=Actions&account=atomicmarket&scope=atomicmarket&limit=100&action=regmarket) action. The wallet with which your register the name, will be the one you can use to [withdraw](https://wax.bloks.io/account/atomicmarket?loadContract=true&tab=Actions&account=atomicmarket&scope=atomicmarket&limit=100&action=withdraw) market fees later. Choose a name that is exactly 12 characters long or the name of the account you're using to register the market.
 - After you registerd the market, use the [marketmapper](https://wax.bloks.io/account/marketmapper) contract to add collections. Execute the [addcol](https://wax.bloks.io/account/marketmapper?loadContract=true&tab=Actions&account=marketmapper&scope=marketmapper&limit=100&action=addcol) action with the name of your market and the collection that you want to support. Execute this command multiple times, if you want to add more than one collection.
 
